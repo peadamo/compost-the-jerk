@@ -169,7 +169,7 @@ bloodArray.splice(bloodArray.findIndex((e)=>e===blood),1)
 //################    TICKER    ################
 //################    TICKER    ################
 //################    TICKER    ################
-let tickerCounter = 0;
+export let tickerCounter = 0;
 app.ticker.add(() => {
   gameLogic();
   tickerCounter++;

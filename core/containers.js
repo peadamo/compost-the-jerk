@@ -12,6 +12,17 @@ export const startContainers = () => {
   gameContainer.width = _W;
   gameContainer.heigth = _H;
 
+
+
+  gameContainer.on("touchmove", (event) => {
+   console.log(2)
+  });
+
+
+
+
+
+
   gameContainer.on("mousemove", (event) => {
     let posX = event.global.x - app.stage.x;
     let posY = event.global.y - app.stage.y;
